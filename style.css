@@ -1,21 +1,63 @@
 /* You're welcome to change any of this! */
+
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    margin: 0px;
-    font-family: Arial, sans-serif;
+	background-color: #1D3557;
+    font-family: 'Roboto Mono', monospace;
+	color: #F1FAEE;
 }
+
 header, section {
+    background-color: #E63946;
     padding: 20px;
+    /* border: dotted 2px rgb(255, 255, 255); */
+    text-align: center;
 }
+
+#homework {
+    background-color: #F1FAEE;
+    margin-top: 40px;
+    width: 49.5%;
+    display: inline-block;
+    color: black;
+}
+
+#tutorials {
+    background-color: #F1FAEE;
+    margin-top: 40px;
+    width: 49.5%;
+    display: inline-block;
+    color: black;
+}
+
+a {
+    color: #1D3557;
+}
+
 p, li {
+    font-family: 'Roboto', sans-serif;
     line-height: 1.5em;
 }
 
+li:hover {
+    font-size: 105%;
+}
+
+ul.no-bullets {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+  }
+
 #inspiration {
-    background-color: #F0F0F0;
+    display: block;
+    background-color: #A8DADC;
+    margin-top: 300px;
     padding-top: 40px;
     padding-bottom: 40px;
+    color: #457B9D;
 }
